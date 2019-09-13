@@ -1,10 +1,12 @@
-<!doctype html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Titre de la page</title>
-
-</head>
+<?php
+function start_page($title)
+{
+    echo '<!DOCTYPE html> <html lang="fr"> <head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL;
+};
+?>
+<?php
+start_page('titre');
+?>
 <body>
 <?php
 echo '<strong> Voici mon premier programme PHP </strong><br/>' . "\n";
