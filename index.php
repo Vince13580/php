@@ -14,14 +14,12 @@ echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
 start_page('test');
 end_page();
 ?>
+
 <?php
- @date= date('d/m/Y\'');
-?>
-<?php
- $jour= date('d/m/Y',strtotime($date));
+ $jour= date('d/m/Y');
  ?>
 <?php
-echo @$jour;
+echo strtotime(@$jour);
 ?>
 <body>
 </body>
