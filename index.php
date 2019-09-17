@@ -17,7 +17,7 @@ end_page();
 <?php
 function madate()
 {
-    $jour= date('d/m/Y',strtotime(¤$jour));
+    $jour= date('d/m/Y',strtotime('17-09-2019'));
     echo $jour;
 }
 ?>
