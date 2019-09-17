@@ -15,7 +15,10 @@ start_page('test');
 end_page();
 ?>
 <?php
-echo date('l F d, Y');
+$jour=date('lFd,Y');
+?>
+<?php
+echo @$jour;
 ?>
 <body>
 </body>
