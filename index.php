@@ -15,11 +15,14 @@ start_page('test');
 end_page();
 ?>
 <?php
-function date()
+function madate()
 {
-    $jour= date('d/m/Y',strtotime('2020-04-01'));
+    $jour= date('d/m/Y',strtotime(¤$jour));
     echo $jour;
 }
+?>
+<?php
+madate();
 ?>
 <body>
 </body>
