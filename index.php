@@ -15,8 +15,8 @@ start_page('test');
 end_page();
 ?>
 <?php
-$jour=date('lFd,Y');
-?>
+ $jour=date('d/m/Y',strtotime('2020-04-01'));
+ ?>
 <?php
 echo @$jour;
 ?>
