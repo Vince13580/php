@@ -14,16 +14,8 @@ echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
 start_page('test');
 end_page();
 ?>
-<?php
-function madate()
-{
-    $jour= date('d/m/Y',strtotime('17-09-2019'));
-    echo $jour;
-}
-?>
-<?php
-madate();
-?>
+
+
 <body>
 </body>
 </html>
