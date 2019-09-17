@@ -15,7 +15,7 @@ start_page('test');
 end_page();
 ?>
 <?php
-echo date('lFd,Y');
+echo date('l F d, Y');
 ?>
 <body>
 </body>
