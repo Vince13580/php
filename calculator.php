@@ -1,4 +1,4 @@
-<?php
+
 include 'index.php';
 start_page("calculatrice");
  <form action="calcul.php" method="get">
@@ -13,5 +13,8 @@ start_page("calculatrice");
                 }
             ?>
         </form>
+
+<?php
 end_page();
 ?>
+
