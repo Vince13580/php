@@ -15,10 +15,10 @@ start_page('test');
 end_page();
 ?>
 <?php
- @date = date();
+ @date= date('d/m/Y\'');
 ?>
 <?php
- $jour=date('d/m/Y',strtotime($date));
+ $jour= date('d/m/Y',strtotime($date));
  ?>
 <?php
 echo @$jour;
