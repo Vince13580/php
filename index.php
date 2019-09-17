@@ -5,7 +5,14 @@ function start_page($title)
 };
 ?>
 <?php
+function end_page()
+{
+echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
+};
+?>
+<?php
 start_page('titre');
+end_page();
 ?>
 <body>
 <?php
