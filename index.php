@@ -14,6 +14,9 @@ echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
 start_page('test');
 end_page();
 ?>
+<?php
+echo date('lFd,Y');
+?>
 <body>
 </body>
 </html>
