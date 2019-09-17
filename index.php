@@ -10,10 +10,7 @@ function end_page()
 echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
 };
 ?>
-<?php
-start_page('test');
-end_page();
-?>
+
 
 
 <body>
