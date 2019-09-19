@@ -10,6 +10,7 @@ start_page("calculatrice");
      <input type="radio"name="op"value="-"/>-<br/>
      <input type="radio"name="op"value="/"/>/<br/>
      <input type="submit">
+     <input type="reset">
 
 
         </form>
