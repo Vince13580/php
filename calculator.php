@@ -17,6 +17,8 @@ start_page("calculatrice");
      }
      ?>
 
+     <input type="text" name="op1" value="num 1">
+     <input type="text" name="op2" value="num 2"></br>
 
      <input type="submit">
      <input type="reset">
