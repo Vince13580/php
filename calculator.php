@@ -3,7 +3,8 @@ include 'index.php';
 start_page("calculatrice");
 ?>
  <form action="calcul.php" method="post">
-     <?php$operateurs='*+-/';
+     <?php
+     $operateurs='*+-/';
 
      for($cpt=0;$cpt<=3;++$cpt)
      {
