@@ -15,9 +15,9 @@ end_page();
     <input  type="password" name="Vérification mot de passe" value="vérification mdp"/>
     <input  type="text" name="Téléphone" value="numéro de téléphone"/>
     <select name="Pays">
-        <option value="France"></option>
-        <option value="Slovénie"></option>
-        <option value="Italie"></option>
+        <option value='France'>France</option>
+        <option value='Slovénie'>Slovénie</option>
+        <option value='Italie'>Italie</option>
     </select>
     <input type="checkbox" name="conditions générales" value="accepter les conditions générales"/>
     <input type="submit" name ="action" value="mailer"/>
