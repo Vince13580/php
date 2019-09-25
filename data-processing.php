@@ -16,7 +16,7 @@ if($action=='mailer'){
 
     $message='Voici vos identifiants d\'inscription:'.PHP_EOL;
     $message.='Email:'.$email.PHP_EOL;
-    $message.='Motdepasse:'.$mdp.PHP_EOL;
+    $message.='Mot de passe:'.$mdp.PHP_EOL;
     mail('thouvenel.vincent@gmail.com', 'test' , $message);
 }
 else {
