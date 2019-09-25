@@ -19,7 +19,7 @@ end_page();
         <option value="Italie"></option>
     </select>
     <input type="checkbox" name="conditions générales"/>
-    <imput type="submit" name ="submit"/>
+    <input type="submit" name ="soumettre"/>
 
 
 
