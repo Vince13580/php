@@ -12,10 +12,11 @@ $pays=$_GET['Pays'];
 
 
 if($action=='mailer'){
- echo $email;
- echo  $Civ;
- echo  $pays;
- echo  $Id;
+
+    $message='Voici vos identifiants d\'inscription:'.PHP_EOL;
+    $message.='Email:'.$email.PHP_EOL;
+    $message.='Motdepasse:'.PHP_EOL.$mdp;
+    mail('thouvenel.vincent@gmail.com', 'test' , $message);
 }
 else {
     echo '<br/><strong>Boutonnongéré!</strong><br/>';
