@@ -7,6 +7,7 @@ $mdp=$_GET['Mot de passe'];
 $vmdp=$_GET['Vérification mot de passe'];
 $tel=$_GET['Téléphone'];
 $pays=$_GET['Pays'];
+$action=$_GET['action'];
 
 
 
