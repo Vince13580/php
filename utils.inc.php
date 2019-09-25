@@ -7,6 +7,6 @@ function start_page($title)
 <?php
 function end_page()
 {
-    echo '<body><hr/><br/><strong>Test</strong><br/><hr/></body>' . PHP_EOL;
+    echo '<body><hr/><br/><strong>FIN DE PAGE</strong><br/><hr/></body>' . PHP_EOL;
 };
 ?>
