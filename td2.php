@@ -19,7 +19,7 @@ end_page();
         <option value='Slovénie'>Slovénie</option>
         <option value='Italie'>Italie</option>
     </select>
-    <input type="checkbox" name="conditions générales" value="accepter les conditions générales"/>
+    <input type="checkbox" name="conditions générales"/>
     <input type="submit" name ="action" value="mailer"/>
 
 
