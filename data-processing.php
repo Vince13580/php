@@ -1,11 +1,10 @@
 <?php
-print_r($_POST);
-exit;
+
 $Id=$_POST['Identifiant'];
 $Civ=$_POST['Civilité'];
 $email=$_POST['E-mail'];
-$mdp=$_POST['Mot de passe'];
-$vmdp=$_POST['Vérification mot de passe'];
+$mdp=$_POST['Mot_de_passe'];
+$vmdp=$_POST['Vérification_mot_de_passe'];
 $tel=$_POST['Téléphone'];
 $pays=$_POST['Pays'];
 $action=$_POST['action'];
