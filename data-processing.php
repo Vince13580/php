@@ -1,13 +1,13 @@
 <?php
 
-$Id=$_GET['Identifiant'];
-$Civ=$_GET['Civilité'];
-$email=$_GET['E-mail'];
-$mdp=$_GET['Mot de passe'];
-$vmdp=$_GET['Vérification mot de passe'];
-$tel=$_GET['Téléphone'];
-$pays=$_GET['Pays'];
-$action=$_GET['action'];
+$Id=$_POST['Identifiant'];
+$Civ=$_POST['Civilité'];
+$email=$_POST['E-mail'];
+$mdp=$_POST['Mot de passe'];
+$vmdp=$_POST['Vérification mot de passe'];
+$tel=$_POST['Téléphone'];
+$pays=$_POST['Pays'];
+$action=$_POST['action'];
 
 
 
