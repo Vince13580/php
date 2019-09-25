@@ -1,5 +1,6 @@
 <?php
-
+print_r($_POST);
+exit;
 $Id=$_POST['Identifiant'];
 $Civ=$_POST['Civilité'];
 $email=$_POST['E-mail'];
