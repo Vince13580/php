@@ -1,6 +1,6 @@
 <?php
 include'utils.inc.php';
-start_page(td2);
+start_page('TD2');
 end_page();
 
 //Correspond à l’adresse IP de celui qui visualise la page.
@@ -9,6 +9,5 @@ echo getenv('REMOTE_ADDR');
 echo getenv('HTTP_HOST');
 //Correspond au logiciel serveur Web utilisé.
 echo getenv('SERVER_SOFTWARE');
-phpinfo();
 ?>
 
