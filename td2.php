@@ -7,19 +7,20 @@ start_page('TD2');
 end_page();
 ?>
 <form action="data-processing.php" method="post">
-    <input  type="text" name="Identifiant"/>
-    <input  type="radio" name="Civilité"/>
-    <input  type="text" name="E-mail"/>
-    <input  type="password" name="Mot de passe"/>
-    <input  type="password" name="Vérification mot de passe"/>
-    <input  type="text" name="Téléphone"/>
+    <input  type="text" name="Identifiant" value="identifiant"/>
+    <input  type="radio" name="Civilité" value="M"/>
+    <input  type="radio" name="Civilité" value="F"/>
+    <input  type="text" name="E-mail" VALUE="Adresse Email"/>
+    <input  type="password" name="Mot de passe"value="mot de passe"/>
+    <input  type="password" name="Vérification mot de passe" value="vérification mdp"/>
+    <input  type="text" name="Téléphone" value="numéro de téléphone"/>
     <select name="Pays">
         <option value="France"></option>
         <option value="Slovénie"></option>
         <option value="Italie"></option>
     </select>
-    <input type="checkbox" name="conditions générales"/>
-    <input type="submit" name ="soumettre"/>
+    <input type="checkbox" name="conditions générales" value="accepter les conditions générales"/>
+    <input type="submit" name ="action" value="mailer"/>
 
 
 
