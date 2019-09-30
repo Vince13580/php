@@ -34,7 +34,7 @@ else {
     echo '<br/><strong>Bouton non géré!</strong><br/>';
 }
 
-$query='INSERT INTO user ('IDENTIFIANT', 'CIVILITÉ','MAIL','MOT_DE_PASSE', 'TÉLÉPHONE', 'PAYS', 'CG', 'DATE', 'ID') VALUES ('$Id','$Civ','$email','$mdp','$tel','$pays','$Cg','$today')';
+$query='INSERT INTO user ('IDENTIFIANT', 'CIVILITÉ','MAIL','MOT_DE_PASSE', 'TÉLÉPHONE', 'PAYS', 'CG', 'DATE', 'ID') VALUES (\'' . $Id . '\,\'' . $Civ . '\',\'' . $email . '\',\'' . $mdp . '\',\''.$tel.'\',\''.$pays.'\',\''.$Cg.'\',\''.$today.'\')';
 
 if(!($dbResult=mysqli_query($dbLink, $query))) {
     echo 'Erreurdansrequête<br/>';
