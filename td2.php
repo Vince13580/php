@@ -18,7 +18,7 @@ start_page('TD2');
         <option value='Slovénie'>Slovénie</option>
         <option value='Italie'>Italie</option>
     </select>
-    <input type="checkbox" name="conditions générales"/><br>
+    <input type="checkbox" name="conditions_générales"/><br>
     <input type="submit" name ="action" value="mailer"/><br>
 
 
