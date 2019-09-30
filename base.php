@@ -5,7 +5,7 @@
 mysqli_select_db($dbLink,'thouvenelvincent_td2')
 or die('Erreur dans la sélection de la base:'.mysqli_error($dbLink));
 
-$query='SELECT ID,E-MAIL,DATE FROM user';
+$query='SELECT ID,MAIL,DATE FROM user';
 
 if(!($dbResult=mysqli_query($dbLink, $query)))
 {
@@ -18,7 +18,7 @@ if(!($dbResult=mysqli_query($dbLink, $query)))
 while($dbRow=mysqli_fetch_assoc($dbResult))
 {
     echo$dbRow['ID'].'<br/>';
-    echo$dbRow['E-MAIL'].'<br/>';
+    echo$dbRow['MAIL'].'<br/>';
     echo$dbRow['DATE'].'<br/>';
     echo'<br/><br/>';
 
