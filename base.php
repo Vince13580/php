@@ -1,6 +1,5 @@
 <?php
- $dbLink=mysqli_connect('mysql-thouvenelvincent.alwaysdata.net','
-174321','Vincent13580')
+ $dbLink=mysqli_connect('mysql-thouvenelvincent.alwaysdata.net','174321','Vincent13580')
     or die('Erreur de connexion au serveur:'.mysqli_connect_error());
 
 mysqli_select_db($dbLink,'thouvenelvincent_td2')
