@@ -20,10 +20,21 @@ $pays=$_POST['Pays'];
 $action=$_POST['action'];
 $Cg=$_POST['conditions_générales'];
 
+if(!($dbResult=mysqli_query($dbLink, $query))) {
+    echo 'Erreurdansrequête<br/>';
+//Affiche le type d'erreur.
+    echo 'Erreur:' . mysqli_error($dbLink) . '<br/>';
+//Affiche la requête envoyée.
+    echo 'Requête:' . $query . '<br/>';
+    exit();
+}
+
 
 
 
 if($action=='mailer'){
+    $query= "INSERT INTO user (IDENTIFIANT, CIVILITÉ,MAIL,MOT_DE_PASSE, TÉLÉPHONE, PAYS, CG, DATE, ID) VALUES ('$Id', '$Civ','$email','$mdp','$tel','$pays','$Cg','$today')";
+
 
     $message='Voici vos identifiants d\'inscription:'.PHP_EOL;
     $message.='Email:'.$email.PHP_EOL;
@@ -34,14 +45,6 @@ else {
     echo '<br/><strong>Bouton non géré!</strong><br/>';
 }
 
-$query='INSERT INTO user ('IDENTIFIANT', 'CIVILITÉ','MAIL','MOT_DE_PASSE', 'TÉLÉPHONE', 'PAYS', 'CG', 'DATE', 'ID') VALUES (\'' . $Id . '\,\'' . $Civ . '\',\'' . $email . '\',\'' . $mdp . '\',\''.$tel.'\',\''.$pays.'\',\''.$Cg.'\',\''.$today.'\')';
 
-if(!($dbResult=mysqli_query($dbLink, $query))) {
-    echo 'Erreurdansrequête<br/>';
-//Affiche le type d'erreur.
-    echo 'Erreur:' . mysqli_error($dbLink) . '<br/>';
-//Affiche la requête envoyée.
-    echo 'Requête:' . $query . '<br/>';
-    exit();
-}
+
 ?>
