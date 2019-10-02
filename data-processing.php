@@ -45,6 +45,9 @@ if(!($dbResult=mysqli_query($dbLink, $query))) {
     echo 'Requête:' . $query . '<br/>';
     exit();
 }
+else
+    echo 'Vous êtes enregistré dans notre base de données!'.PHP_EOL;
+
 
 
 ?>
