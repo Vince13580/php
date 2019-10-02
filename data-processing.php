@@ -26,7 +26,7 @@ $Cg=$_POST['conditions_générales'];
 
 
 if($action=='mailer'){
-    $query= "INSERT INTO user (IDENTIFIANT, CIVILITÉ,MAIL,MOT_DE_PASSE, TÉLÉPHONE, PAYS, CG, DATE) VALUES ('$Id', '$Civ','$email','$mdp','$tel','$pays','$Cg','$today')";
+    $query= "INSERT INTO user (IDENTIFIANT, CIVILITÉ,MAIL,MOT_DE_PASSE, TÉLÉPHONE, PAYS,DATE) VALUES ('$Id', '$Civ','$email','$mdp','$tel','$pays','$today')";
 
 
     $message='Voici vos identifiants d\'inscription:'.PHP_EOL;
